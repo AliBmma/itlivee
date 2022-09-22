@@ -3,7 +3,9 @@
 .txt{font-size: 60px;}
 
 
-body{background-image: url("BACK.jpg");background-repeat: no-repeat;height: 2000cm;}
+/* body{background-image: url("BACK.jpg");background-repeat: no-repeat;height: 2000cm;} */
+
+@media (max-width :800px){body{ color: red;}}
 
 .nav-link{color: aliceblue;}
 
@@ -19,8 +21,9 @@ body{background-image: url("BACK.jpg");background-repeat: no-repeat;height: 2000
 
  .text{color: aliceblue; position: center center; text-align: center; margin-top:4cm; text-size-adjust: 1000px; position: sticky;}
 
-.logo{margin-top:-380px;}
-.img1{width: 200px; height: 200px;}
+.img1{position: fixed; height: 200px; width: 200px; }
+
+.img1{margin-top: -9cm;}
 
 .text {
  
@@ -38,15 +41,7 @@ body{background-image: url("BACK.jpg");background-repeat: no-repeat;height: 2000
   100% { left:0px; top:0px;}
 }
 
-.img1 {
 
- 
-  transition: width 2s;
-}
-
-.img1:hover {
-  width: 300px;
-}
 
 .peopleimg{margin-top: 15cm; width: 300px; height: 300px;}
 
@@ -158,4 +153,14 @@ section:not(#section_counter) {
     transform: translateY(0rem);
   }
 }
+
+.ba{position:fixed}
+
+.er{color: aliceblue;}
+.er:hover{transition: 0.2s;
+color: aliceblue;}
+
+.navbar-toggler{border-color: white;}
+
+.navbar-toggler-icon{background-color: aliceblue;}
 
